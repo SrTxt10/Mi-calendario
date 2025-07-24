@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio | Orisu</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('Fondo-index.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Georgia', serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .contenido {
+      background-color: rgba(255, 255, 255, 0.6);
+      padding: 40px;
+      border-radius: 30px;
+    }
+
+    h1 {
+      color: #b35b8c;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #b35b8c;
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+
+    button {
+      background-color: #f9a8d4;
+      color: white;
+      border: none;
+      padding: 10px 100px;
+      border-radius: 30px;
+      font-size: 2em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #f472b6;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenido">
+    <h1>Bienvenida a Orisu Alisados</h1>
+    <p>✨ Reservá tu turno ✨</p>
+    <button onclick="window.location.href='calendario.html'">Agendar</button>
+  </div>
+</body>
+</html>
